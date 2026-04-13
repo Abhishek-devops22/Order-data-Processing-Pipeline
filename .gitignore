@@ -1,0 +1,40 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.lock.hcl
+*.tfplan
+terraform.tfvars
+!terraform.tfvars.example
+override.tf
+*.tfvars.backup
+function.zip
+*outputs.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Credentials — never commit
+.env
+*.env
+*-credentials.json
+aws-credentials
+*.pem
+*.key
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

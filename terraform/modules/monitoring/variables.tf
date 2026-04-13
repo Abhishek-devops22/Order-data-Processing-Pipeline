@@ -1,0 +1,13 @@
+variable "project_name" { type = string }
+variable "environment" { type = string }
+variable "cloudtrail_bucket_id" { type = string }
+variable "cloudtrail_kms_key_arn" { type = string }
+variable "cloudwatch_logs_key_arn" { type = string }
+variable "raw_bucket_arn" { type = string }
+variable "raw_bucket_name" { type = string }
+variable "processed_bucket_arn" { type = string }
+variable "lambda_function_arn" { type = string }
+variable "lambda_function_name" { type = string }
+variable "lambda_role_arn" { type = string }
+variable "api_name" { type = string }
+variable "alert_email" { type = string}

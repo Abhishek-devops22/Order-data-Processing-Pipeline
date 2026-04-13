@@ -1,0 +1,8 @@
+# No external dependencies — only AWS SDK (boto3) and Python stdlib used.
+# boto3 is pre-installed in the AWS Lambda Python 3.12 runtime.
+# No pip install needed before packaging.
+#
+# Dev/test dependencies only (not deployed):
+pytest==8.2.0
+boto3==1.34.131
+moto[s3,secretsmanager]==5.0.10

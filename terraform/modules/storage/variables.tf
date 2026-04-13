@@ -1,0 +1,9 @@
+variable "project_name" { type = string }
+variable "environment" { type = string }
+variable "raw_kms_key_arn" { type = string }
+variable "processed_kms_key_arn" { type = string }
+variable "cloudtrail_kms_key_arn" { type = string }
+variable "lambda_role_arn" { type = string }
+variable "raw_retention_days" { type = number }
+variable "processed_retention_days" { type = number }
+variable "gdpr_admin_arn" { type = string }
