@@ -1,4 +1,4 @@
-# Yepoda Order Processing Pipeline — AWS
+# Order Data Processing Pipeline — AWS
 
 GDPR-compliant serverless data pipeline on AWS that receives e-commerce orders,
 pseudonymizes PII, stores raw data securely, and makes anonymized data queryable via Athena.
