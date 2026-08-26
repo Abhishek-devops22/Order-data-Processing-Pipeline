@@ -61,8 +61,8 @@ aws configure
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Abhishek-devops22/yepoda-Order-Processing-Pipeline.git
-cd yepoda-Order-Processing-Pipeline
+git clone https://github.com/Abhishek-devops22/Order-data-Processing-Pipeline.git
+cd Order-data-Processing-Pipeline
 ```
 
 ### 2. Create the Terraform state bucket (one-time)
@@ -305,7 +305,7 @@ Then re-run `terraform apply`.
 ## Project Structure
 
 ```
-yepoda-Order-Processing-Pipeline/
+Order-data-Processing-Pipeline/
 ├── terraform/                  # Infrastructure as Code
 │   ├── main.tf                 # Root module — composes all sub-modules in dependency order
 │   ├── variables.tf            # Input variables (region, project name, retention, etc.)
