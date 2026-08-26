@@ -208,7 +208,7 @@ LIMIT 10;
 ## Running Unit Tests
 
 ```bash
-cd yepoda-Order-Processing-Pipeline
+cd Order-data-Processing-Pipeline
 
 # Install test dependencies
 pip install pytest boto3 moto
