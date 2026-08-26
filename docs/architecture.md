@@ -1,4 +1,4 @@
-# Architecture — Yepoda GDPR-Compliant Order Processing Pipeline (AWS)
+# Architecture — GDPR-Compliant Order Data Processing Pipeline (AWS)
 
 ## Data Flow Diagram
 
