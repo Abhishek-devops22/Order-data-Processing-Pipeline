@@ -1,7 +1,7 @@
 # GDPR Compliance Report
 
-**Project:** Yepoda Order Processing Pipeline (AWS)
-**Data Controller:** Yepoda GmbH
+**Project:** Order Data Processing Pipeline (AWS)
+**Data Controller:** Abhishek Bharadwaj
 **Processing Purpose:** E-commerce order management and analytics
 **Technical Implementation:** AWS Lambda + S3 + Athena, eu-central-1 (Frankfurt)
 
