@@ -1,4 +1,4 @@
-"""Unit tests for the Lambda order processing handler."""
+"""Unit tests for the Lambda order data processing handler."""
 
 import hashlib
 import hmac
