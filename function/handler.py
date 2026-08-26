@@ -1,5 +1,5 @@
 """
-Order Processing Lambda — GDPR-compliant data pipeline.
+Order Data Processing Lambda — GDPR-compliant data pipeline.
 
 Flow:
   API Gateway POST /orders
