@@ -65,7 +65,7 @@ git clone https://github.com/Abhishek-devops22/Order-data-Processing-Pipeline.gi
 cd Order-data-Processing-Pipeline
 ```
 
-### 2. Create the Terraform state bucket (one-time)
+### 2. Create the Terraform state bucket(one-time)
 
 This bucket stores Terraform state remotely. Create it once per AWS account before the first `terraform init`.
 
